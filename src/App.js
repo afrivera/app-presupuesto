@@ -32,7 +32,7 @@ function App() {
       setCrearGasto( false );
     }
     
-  }, [ gasto ])
+  }, [ gasto, gastos, crearGasto, restante ])
   
 
   // cuando se agregue un nuevo gasto
